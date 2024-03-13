@@ -137,7 +137,7 @@
 }
 
 
- /* navbar section */
+ /* NAVBAR SECTION */
 
  .nav-item a {
   color: #344563;
@@ -158,7 +158,10 @@
   padding: 0 50px;
 }
 
-/* header section */
+
+
+
+/* HEADER SECTION */
 
 .hero-section {
   background-image: url(images/desktop-bg-img.png);
@@ -176,33 +179,9 @@
 
 
 
+/* WORK SECTION */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Work section */
 
 #work-container {
   display: grid;
@@ -558,7 +537,9 @@
 
 
 
-  /* work section */
+  /* WORK SECTION */
+
+
   .container {
     display: flex;
     flex-direction: row;
@@ -585,29 +566,10 @@
 
 
 
+ /* ABOUT SECTION  */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* About section  */
  .about-content {
   display: flex;
   flex-direction: row;
