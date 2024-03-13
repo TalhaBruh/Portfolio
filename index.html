@@ -1,349 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <a href="#" class="nav-branding">Talha</a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="#work-container" class="nav-link">Portfolio</a>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-branding">Talha</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#work-container" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about-container" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-container" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HEADLINE SECTION -->
+
+  <main class="main-container">
+    <section class="hero-section">
+      <div>
+        <h1 class="hero-h1">
+          I’m Talha <br />
+          Glad to see <br />you!
+        </h1>
+        <p class="hero-text">
+          I’m a software developer! I can help you build a product, feature
+          or website. Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hesitate to
+          contact me.
+        </p>
+        <p class="hero-connect">LET’S CONNECT</p>
+        <ul id="social-media" class="hero-links">
+          <li>
+            <a href=""><img src="images/twitter.svg" alt="Twitter" /></a>
           </li>
-          <li class="nav-item">
-            <a href="#about-container" class="nav-link">About</a>
+          <li>
+            <a href=""><img src="images/linkedin.svg" alt="Linkedin" /></a>
           </li>
-          <li class="nav-item">
-            <a href="#contact-container" class="nav-link">Contact</a>
+          <li>
+            <a href=""><img src="images/Medium.svg" alt="Medium" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/github.svg" alt="Github" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/angel-list.svg" alt="Angel-List" /></a>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </section>
 
-    <main class="main-container">
-      <section class="hero-section">
-        <div>
-          <h1 class="hero-h1">
-            I’m Talha <br />
-            Glad to see <br />you!
-          </h1>
-          <p class="hero-text">
-            I’m a software developer! I can help you build a product, feature
-            or website. Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hesitate to
-            contact me.
+
+    <!-- WORK SECTION -->
+
+
+    <!-- Tonic section -->
+
+
+    <section id="work-container">
+      <div class="container">
+        <figure class="snap-shoot-one">
+          <img
+            class="project1-photo"
+            src="images/SnapshootPortfolio.png"
+            alt="project's image"
+          />
+        </figure>
+        <div class="Project-one-header">
+          <h4>Tonic</h4>
+          <ul class="project-description">
+            <li class="project1-text">CANOPY</li>
+            <li>
+              <img
+                class="bullet-image"
+                src="images/Counter.png"
+                alt="bullet"
+              />
+            </li>
+            <li class="Project1-text2">Back End Dev</li>
+            <li>
+              <img
+                class="bullet-image"
+                src="images/Counter.png"
+                alt="bullet"
+              />
+            </li>
+            <li class="Project1-text3">2015</li>
+          </ul>
+          <p class="project-requirement">
+            A daily selection of privately <br />personalized reads; no
+            accounts or<br />
+            sign-ups required.
           </p>
-          <p class="hero-connect">LET’S CONNECT</p>
-          <ul id="social-media" class="hero-links">
+          <ul class="Project1-languages">
+            <li class="lang1">html</li>
+            <li class="lang2">css</li>
+            <li class="lang3">javaScript</li>
+          </ul>
+          <button class="btn submit-btn" type="submit">See Project</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Multi-Post Stories section -->
+
+
+    <div class="container row-reverse">
+      <figure class="snap-shoot-one">
+        <img
+          class="project2-image"
+          src="images/Snapshoot-2.png"
+          alt="Project's image"
+        />
+      </figure>
+      <div class="Project-one-header">
+        <h4>Multi-Post<br />Stories</h4>
+        <ul class="project-description">
+          <li class="project1-text">CANOPY</li>
+          <li>
+            <img
+              class="bullet-image"
+              src="images/Counter.png"
+              alt="bullet"
+            />
+          </li>
+          <li class="Project1-text2">Bad End Dev</li>
+          <li>
+            <img
+              class="bullet-image"
+              src="images/Counter.png"
+              alt="bullet"
+            />
+          </li>
+          <li class="Project1-text3">2015</li>
+        </ul>
+        <p class="project-requirement">
+          A daily selection of privately <br />personalized reads; no
+          accounts or<br />
+          sign-ups required.
+        </p>
+        <ul class="Project1-languages">
+          <li class="lang1">html</li>
+          <li class="lang2">css</li>
+          <li class="lang3">javaScript</li>
+        </ul>
+        <button class="btn submit-btn" type="submit">See Project</button>
+      </div>
+    </div>
+
+
+    <!-- Tonic 2 section  -->
+
+
+    <div class="container">
+      <figure class="snap-shoot-one">
+        <img
+          class="project3-image"
+          src="images/Snapshoot-3.png"
+          alt="project's image"
+        />
+      </figure>
+      <div class="Project-one-header">
+        <h4>Tonic</h4>
+        <ul class="project-description">
+          <li class="project1-text">CANOPY</li>
+          <li>
+            <img
+              class="bullet-image"
+              src="images/Counter.png"
+              alt="bullet"
+            />
+          </li>
+          <li class="Project1-text2">End Dev</li>
+          <li>
+            <img
+              class="bullet-image"
+              src="images/Counter.png"
+              alt="bullet"
+            />
+          </li>
+          <li class="Project1-text3">2015</li>
+        </ul>
+        <p class="project-requirement">
+          A daily selection of privately <br />
+          personalized reads; no accounts or <br />
+          sign-ups required.
+        </p>
+        <ul class="Project1-languages">
+          <li class="lang1">html</li>
+          <li class="lang2">css</li>
+          <li class="lang3">javaScript</li>
+        </ul>
+        <button class="btn submit-btn" type="submit">See Project</button>
+      </div>
+    </div>
+
+
+    <!-- Multi-Post Stories 2 section -->
+
+
+    <div class="container row-reverse">
+      <figure class="snap-shoot-one">
+        <img
+          class="project4-photo"
+          src="images/Snapshoot-4.png"
+          alt="project's image"
+        />
+      </figure>
+      <div class="Project-one-header">
+        <h4>
+          Multi-Post <br />
+          Stories
+        </h4>
+        <ul class="project-description">
+          <li class="project1-text">CANOPY</li>
+          <li>
+            <img
+              class="bullet-image"
+              src="images/Counter.png"
+              alt="bullet"
+            />
+          </li>
+          <li class="Project1-text2">Back End Dev</li>
+          <li>
+            <img
+              class="bullet-image"
+              src="images/Counter.png"
+              alt="bullet"
+            />
+          </li>
+          <li class="Project1-text3">2015</li>
+        </ul>
+        <p class="project-requirement">
+          A daily selection of privately <br />
+          personalized reads; no accounts or <br />
+          sign-ups required.     
+        </p>
+        <ul class="Project1-languages">
+          <li class="lang1">html</li>
+          <li class="lang2">css</li>
+          <li class="lang3">javaScript</li>
+        </ul>
+        <button class="btn submit-btn" type="submit">See Project</button>
+      </div>
+    </div>
+
+    <!-- ABOUT MYSELF SECTION -->
+
+    <section id="about-container">
+      <div class="about-content">
+        <div class="leftblock">
+          <h2 class="title">
+            About
+            <br />Myself
+          </h2>
+          <p class="about-description">
+            Hello I’m a software developer! I can help <br />
+            you build a product, feature or website. <br />
+            Look through some of my work and <br />
+            experience! If you like what you see and <br />
+            have a project you need coded, don’t <br />
+            hestiate to contact me.
+          </p>
+          <a href="#" class="connect-one">
+            <h3>LET'S CONNECT</h3>
+          </a>
+
+          <ul class="icons">
             <li>
-              <a href=""><img src="images/twitter.svg" alt="Twitter" /></a>
+              <a href="" target="blank"
+                ><img src="images/github.svg" alt="Github"
+              /></a>
             </li>
             <li>
-              <a href=""><img src="images/linkedin.svg" alt="Linkedin" /></a>
+              <a
+                href=""
+                target="blank"
+                ><img src="images/linkedin.svg" alt="linkedin icon"
+              /></a>
             </li>
             <li>
-              <a href=""><img src="images/Medium.svg" alt="Medium" /></a>
+              <a
+                href=""
+                target="blank"
+                ><img src="images/angel-list.svg" alt="angellist icon"
+              /></a>
             </li>
             <li>
-              <a href=""><img src="images/github.svg" alt="Github" /></a>
+              <a href="" target="blank"
+                ><img src="images/twitter.svg" alt="twitter"
+              /></a>
             </li>
             <li>
-              <a href=""><img src="images/angel-list.svg" alt="Angel-List" /></a>
+              <a href="" target="blank"
+                ><img src="images/Medium.svg" alt="Medium"
+              /></a>
+            </li>
+          </ul>
+          <button class="btn1" type="submit">Get my resume</button>
+        </div>
+        <div class="dropdown-menu">
+          <ul class="programming-languages3">
+            <li class="menu1">
+              <p>Languages</p>
+              <img src="images/arrow.png" alt="arrow-down" />
+            </li>
+          </ul>
+
+          <ul class="programming-lang">
+            <li class="hero-links about-hero-link">
+              <img
+                class="icon"
+                src="images/Ellipse-1.png"
+                alt="JavaScript icon"
+              />
+              <p class="hero-sub-link">JavaScript</p>
+            </li>
+            <li class="hero-links about-hero-link">
+              <img
+                class="icon"
+                src="images/Ellipse-2.png"
+                alt="HTML5 icon"
+              />
+              <p class="hero-sub-link">HTML</p>
+            </li>
+            <li class="hero-links about-hero-link">
+              <img
+                class="icon"
+                src="images/Ellipse-3.png"
+                alt="CSS3 icon"
+              />
+              <p class="hero-sub-link">CSS</p>
+            </li>
+          </ul>
+          <ul class="programming-lang1">
+            <li class="menu1" id="frameworks">
+              <p class="framework1">Frameworks</p>
+              <img
+                src="images/arrow-right.png"
+                alt="arrow bottom icon"
+              />
+            </li>
+          </ul>
+          <ul class="p-lang2">
+            <li class="menu1" id="skills">
+              <p class="framework1">Skills</p>
+              <img
+                src="images/arrow-right.png"
+                alt="arrow bottom icon"
+              />
             </li>
           </ul>
         </div>
-      </section>
-      <section id="work-container">
-        <div class="container">
-          <figure class="snap-shoot-one">
-            <img
-              class="project1-photo"
-              src="images/SnapshootPortfolio.png"
-              alt="project's image"
-            />
-          </figure>
-          <div class="Project-one-header">
-            <h4>Tonic</h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text2">Back End Dev</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />personalized reads; no
-              accounts or<br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn submit-btn" type="submit">See Project</button>
-          </div>
-        </div>
+      </div>
+    </section>
 
-        <div class="container row-reverse">
-          <figure class="snap-shoot-one">
-            <img
-              class="project2-image"
-              src="images/Snapshoot-2.png"
-              alt="Project's image"
-            />
-          </figure>
-          <div class="Project-one-header">
-            <h4>Multi-Post<br />Stories</h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text2">Bad End Dev</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />personalized reads; no
-              accounts or<br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn submit-btn" type="submit">See Project</button>
-          </div>
-        </div>
-        <div class="container">
-          <figure class="snap-shoot-one">
-            <img
-              class="project3-image"
-              src="images/Snapshoot-3.png"
-              alt="project's image"
-            />
-          </figure>
+  
 
-          <div class="Project-one-header">
-            <h4>Tonic</h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text2">End Dev</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />
-              personalized reads; no accounts or <br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn submit-btn" type="submit">See Project</button>
-          </div>
-        </div>
-        <div class="container row-reverse">
-          <figure class="snap-shoot-one">
-            <img
-              class="project4-photo"
-              src="images/Snapshoot-4.png"
-              alt="project's image"
-            />
-          </figure>
-          <div class="Project-one-header">
-            <h4>
-              Multi-Post <br />
-              Stories
-            </h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text2">Back End Dev</li>
-              <li>
-                <img
-                  class="bullet-image"
-                  src="images/Counter.png"
-                  alt="bullet"
-                />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />
-              personalized reads; no accounts or <br />
-              sign-ups required.     
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn submit-btn" type="submit">See Project</button>
-          </div>
-        </div>
-      </section>
-      </section>
-      <section id="about-container">
-        <div class="about-content">
-          <div class="leftblock">
-            <h2 class="title">
-              About
-              <br />Myself
-            </h2>
-            <p class="about-description">
-              Hello I’m a software developer! I can help <br />
-              you build a product, feature or website. <br />
-              Look through some of my work and <br />
-              experience! If you like what you see and <br />
-              have a project you need coded, don’t <br />
-              hestiate to contact me.
-            </p>
-            <a href="#" class="connect-one">
-              <h3>LET'S CONNECT</h3>
-            </a>
-
-            <ul class="icons">
-              <li>
-                <a href="" target="blank"
-                  ><img src="images/github.svg" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  target="blank"
-                  ><img src="images/linkedin.svg" alt="linkedin icon"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  target="blank"
-                  ><img src="images/angel-list.svg" alt="angellist icon"
-                /></a>
-              </li>
-              <li>
-                <a href="" target="blank"
-                  ><img src="images/twitter.svg" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="" target="blank"
-                  ><img src="images/Medium.svg" alt="Medium"
-                /></a>
-              </li>
-            </ul>
-            <button class="btn1" type="submit">Get my resume</button>
-          </div>
-          <div class="dropdown-menu">
-            <ul class="programming-languages3">
-              <li class="menu1">
-                <p>Languages</p>
-                <img src="images/arrow.png" alt="arrow-down" />
-              </li>
-            </ul>
-
-            <ul class="programming-lang">
-              <li class="hero-links about-hero-link">
-                <img
-                  class="icon"
-                  src="images/Ellipse-1.png"
-                  alt="JavaScript icon"
-                />
-                <p class="hero-sub-link">JavaScript</p>
-              </li>
-              <li class="hero-links about-hero-link">
-                <img
-                  class="icon"
-                  src="images/Ellipse-2.png"
-                  alt="HTML5 icon"
-                />
-                <p class="hero-sub-link">HTML</p>
-              </li>
-              <li class="hero-links about-hero-link">
-                <img
-                  class="icon"
-                  src="images/Ellipse-3.png"
-                  alt="CSS3 icon"
-                />
-                <p class="hero-sub-link">CSS</p>
-              </li>
-            </ul>
-            <ul class="programming-lang1">
-              <li class="menu1" id="frameworks">
-                <p class="framework1">Frameworks</p>
-                <img
-                  src="images/arrow-right.png"
-                  alt="arrow bottom icon"
-                />
-              </li>
-            </ul>
-            <ul class="p-lang2">
-              <li class="menu1" id="skills">
-                <p class="framework1">Skills</p>
-                <img
-                  src="images/arrow-right.png"
-                  alt="arrow bottom icon"
-                />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-
-        <!-- Contact me section -->
-
-
-    </main>
-  </body>
+  </main>
+</body>
 </html>
