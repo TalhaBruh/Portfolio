@@ -372,3 +372,46 @@
   box-shadow: 0 8px 16px #172b4d;
   color: #fff;
 }
+
+ /* About section  */
+ .about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#about-container {
+  width: 80%;
+  margin: 70px auto 70px auto;
+  padding: 0;
+}
+
+.programming-lang {
+  display: flex;
+  flex-direction: row;
+}
+
+.Project-languages {
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.about-hero-link {
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 10px;
+  padding-right: 40px;
+  background-color: #f7f7f9;
+}
+
+.about-description {
+  font-size: 15px;
+}
+
+
