@@ -378,9 +378,38 @@
           feature that you need built or a project that needs coding. I’d love
           to help with it.
         </p>
-
+        <form
+          id="input"
+          class="flex-column"
+          action=""
+          method="POST"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Full name"
+            minlength="3"
+            maxlength="30"
+            required
+          >
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email address"
+            required
+          >
+          <p id="form-message-error"></p>
+          <textarea
+            name="message"
+            placeholder="Write your message here"
+            maxlength="500"
+            cols="20"
+            rows="10"
+            required
+          ></textarea>
           <button class="btn" type="submit">Get In Touch</button>
-        
+        </form>
         <hr class="footer-line" />
       </div>
     </section>
