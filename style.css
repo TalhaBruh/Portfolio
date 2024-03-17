@@ -609,10 +609,6 @@
 /* CONTACT SECTION */
 
 
-.contact-me {
-  background-image: url("images/desktop-bg-img.png");
-}
-
 .contact-me > div {
   margin: auto;
   padding-top: 10px;
@@ -629,6 +625,17 @@
 }
 
 .contact-title {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  color: #fff;
+  padding-right: 20px;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
@@ -645,7 +652,7 @@
   display: none;
 }
 
-.popup {
+/* .popup {
   width: 65%;
 }
 
@@ -655,7 +662,7 @@
 
 .popup_details p {
   width: 65%;
-}
+} */
 
 .closeBtn {
   cursor: pointer;
@@ -687,19 +694,7 @@
   box-sizing: border-box;
 }
 
-.contact-title {
-  font-family: Poppins, sans-serif;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 52px;
-  color: #fff;
-  padding-right: 20px;
-  justify-content: center;
-}
+
 
 .contact-description {
   font-family: 'Poppins', sans-serif;
