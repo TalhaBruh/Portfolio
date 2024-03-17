@@ -179,10 +179,7 @@
 } 
 
 
-
-
 /* WORK SECTION */
-
 
 
 #work-container {
@@ -227,16 +224,6 @@
 
 .container > figure {
   margin: 0 16px;
-}
-
-.popup_body img {
-  width: 100%;
-  max-height: 350px;
-}
-
-.popup_btn img {
-  height: 10px;
-  width: 10px;
 }
 
 .container > figure > img {
@@ -560,10 +547,7 @@
 }
 
 
-
  /* ABOUT SECTION  */
-
-
 
  .about-content {
   display: flex;
@@ -604,8 +588,6 @@
 .about-description {
   font-size: 15px;
 }
-
-
 
 /* CONTACT SECTION */
 
@@ -671,13 +653,6 @@
 
 .closeBtn:hover {
   color: rgb(97, 112, 255);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 30px;
 }
 
 input,
