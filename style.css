@@ -305,6 +305,16 @@
   width: 100%;
 }
 
+.popup_body img {
+  width: 100%;
+  max-height: 350px;
+}
+
+.popup_btn img {
+  height: 10px;
+  width: 10px;
+}
+
 .Project-one-header {
   margin: 0 16px;
   display: flex;
