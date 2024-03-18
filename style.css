@@ -161,6 +161,8 @@
 
 /* header section */
 
+/* HEADER SECTION */
+
 .hero-section {
   background-image: url(images/desktop-bg-img.png);
   background-repeat: no-repeat;
@@ -173,4 +175,60 @@
   margin: auto;
   width: 70%;
 } 
+
+.hero-h1 {
+  animation: header;
+  animation-duration: 3s;
+  position: relative;
+}
+
+.hero-text {
+  animation: ptext;
+  animation-duration: 3s;
+  position: relative;
+}
+
+@keyframes header {
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes ptext {
+  0% {
+    left: -1000px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.hero-links {
+  animation: media1;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes media1 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-links img:hover {
+  transform: rotate(-20deg);
+  transition: 0.5s;
+}
+
 
