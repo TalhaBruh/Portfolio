@@ -1,424 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
-  <title>My Portfolio</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Home || Talha Hussain's ICC Website</title>
+
+	<link rel="icon" type="image/x-icon" href="./public/images/icclogo.png" />
+
+	<!-- Lato fonts official -->
+	<link rel="stylesheet" href="https://use.typekit.net/gmu8egi.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="/dist/tailwind-css/input.css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./dist/css/main.css" />
+	<link rel="stylesheet" href="./style.css" />
 </head>
-<body>
 
-  <!-- HEADER SECTION -->
+<body class="min-h-screen overflow-x-hidden">
+	<!-- header section  -->
+	<header>
+		<!-- header top  -->
+		<div class="header-top hidden bg-metal text-white md:flex">
+			<div class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:w-83 flex-row-reverse">
+				<a href="#">Logout</a>
+				<a href="#">My page</a>
+				<a href="#">English</a>
 
-  <header>
-    <nav class="navbar">
-      <a href="#" class="nav-branding">Talha</a>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#work-container" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about-container" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact-container" class="nav-link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+				<a href="https://www.linkedin.com/in/syed-talha-shah-60726a221/">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g id="twitter-icon">
+							<path id="twitter_2"
+								d="M22 5.90704C21.2504 6.23442 20.4565 6.44908 19.644 6.54404C20.4968 6.04327 21.138 5.24915 21.448 4.31004C20.64 4.78037 19.7587 5.11164 18.841 5.29004C18.4545 4.88525 17.9897 4.56343 17.4748 4.34422C16.9598 4.12501 16.4056 4.01301 15.846 4.01504C13.58 4.01504 11.743 5.82504 11.743 8.05504C11.743 8.37104 11.779 8.68004 11.849 8.97504C10.2236 8.89774 8.63212 8.48245 7.17617 7.75568C5.72022 7.02891 4.43176 6.00662 3.393 4.75404C3.02883 5.36844 2.83742 6.06982 2.839 6.78404C2.8397 7.45201 3.00683 8.10927 3.32529 8.69644C3.64375 9.2836 4.1035 9.78215 4.663 10.147C4.01248 10.126 3.37602 9.95237 2.805 9.64004V9.69004C2.805 11.648 4.22 13.281 6.095 13.653C5.74261 13.7465 5.37958 13.7939 5.015 13.794C4.75 13.794 4.493 13.769 4.242 13.719C4.51008 14.527 5.02311 15.2314 5.70982 15.7344C6.39653 16.2374 7.22284 16.5141 8.074 16.526C6.61407 17.6506 4.82182 18.2581 2.979 18.253C2.647 18.253 2.321 18.233 2 18.197C3.88125 19.3877 6.06259 20.0183 8.289 20.015C15.836 20.015 19.962 13.858 19.962 8.51904L19.948 7.99604C20.7529 7.42971 21.4481 6.72189 22 5.90704V5.90704Z"
+								fill="white" />
+						</g>
+					</svg>
+				</a>
 
-  <!-- HEADLINE SECTION -->
+				<a href="https://www.linkedin.com/in/syed-talha-shah-60726a221/">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g id="facebook">
+							<path id="icon"
+								d="M9.04598 5.865V8.613H7.03198V11.973H9.04598V21.959H13.18V11.974H15.955C15.955 11.974 16.215 10.363 16.341 8.601H13.197V6.303C13.197 5.96 13.647 5.498 14.093 5.498H16.347V2H13.283C8.94298 2 9.04598 5.363 9.04598 5.865V5.865Z"
+								fill="white" />
+						</g>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<!-- navigation menu  -->
+		<nav class="navbar relative bg-transparent md:bg-white md:shadow-sm">
+			<div class="navbar-inner mx-auto flex items-center justify-between gap-4 py-3 md:w-10/12">
+				<button id="hamburger-button" class="hamburger flex-start bg h-10 cursor-pointer md:hidden">
+					<i class="fa-sharp fa-solid fa-bars" style="font-size: 34px"></i>
+				</button>
 
-  <main class="main-container">
-    <section class="hero-section">
-      <div>
-        <h1 class="hero-h1">
-          I’m Talha <br />
-          Glad to see <br />you!
-        </h1>
-        <p class="hero-text">
-          I’m a software developer! I can help you build a product, feature
-          or website. Look through some of my work and experience! If you like
-          what you see and have a project you need coded, don’t hesitate to
-          contact me.
-        </p>
-        <p class="hero-connect">LET’S CONNECT</p>
-        <ul id="social-media" class="hero-links">
-          <li>
-            <a href=""><img src="images/twitter.svg" alt="Twitter" /></a>
-          </li>
-          <li>
-            <a href=""><img src="images/linkedin.svg" alt="Linkedin" /></a>
-          </li>
-          <li>
-            <a href=""><img src="images/Medium.svg" alt="Medium" /></a>
-          </li>
-          <li>
-            <a href=""><img src="images/github.svg" alt="Github" /></a>
-          </li>
-          <li>
-            <a href=""><img src="images/angel-list.svg" alt="Angel-List" /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
+				<!-- logo  -->
+				<div class="hide--mobile">
+					<a href="index.html" class="logo items-center gap-2 leading-6 transition-all md:flex">
+						<img src="./public/images/icclogo.jpg" style="width: 144px" alt="logo" />
+					</a>
+				</div>
 
+				<div class="relative flex items-center justify-center">
+					<ul class="hidden items-center gap-9 gap-y-4 text-xl md:flex md:flex-wrap" aria-label="main">
+						<li class="text-coral-red hover:text-coral-red hover:opacity-90">
+							<a href="./about.html" class=""> About </a>
+						</li>
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#program" class=""> LIVE! </a>
+						</li>
 
-    <!-- WORK SECTION -->
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#join" class=""> Join </a>
+						</li>
 
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#partner" class=""> Sponsor </a>
+						</li>
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#" class=""> News </a>
+						</li>
+						<li
+							class="border-2 border-coral-red py-2 px-4 transition-all hover:bg-coral-red hover:text-white hover:opacity-90">
+							<a href="index.html" class=""> Matches </a>
+						</li>
+					</ul>
+				</div>
+			</div>
 
-    <!-- Tonic section -->
+	<div
+		class="container relative h-full bg-cover bg-no-repeat hero-area mx-auto flex flex-col gap-4 px-4 py-28 text-metal-grey">
+		<p class="hero-big text-2xl font-medium text-coral-red" style="color:#22126b">
+			"Hello! CRICKET FANS"
+		</p>
+		<h1 class="hero-container bg-cover bg-clip-text text-3xl font-bold uppercase text-transparent min-w-680px text-6xl">
+			ICC Mens Cricket World Cup <br />
+			WestIndies & USA <br class="hide--mobile" />
+			2026
+		</h1>
+		<p class="hero-small border-4 border-white bg-coral-grey p-4">
+			A thrilling celebration, embracing the spirit of cricket and camaraderie, 
+			fostering positive change with participants from over 80 cricketing nations, 
+			is set to unfold in December, during the T20 World Cup in USA.
 
+		</p>
 
-    <section id="work-container">
-      <div class="container">
-        <figure class="snap-shoot-one">
-          <img
-            class="project1-photo"
-            src="images/SnapshootPortfolio.png"
-            alt="project's image"
-          />
-        </figure>
-        <div class="Project-one-header">
-          <h4>Tonic</h4>
-          <ul class="project-description">
-            <li class="project1-text">CANOPY</li>
-            <li>
-              <img
-                class="bullet-image"
-                src="images/Counter.png"
-                alt="bullet"
-              />
-            </li>
-            <li class="Project1-text2">Back End Dev</li>
-            <li>
-              <img
-                class="bullet-image"
-                src="images/Counter.png"
-                alt="bullet"
-              />
-            </li>
-            <li class="Project1-text3">2015</li>
-          </ul>
-          <p class="project-requirement">
-            A daily selection of privately <br />personalized reads; no
-            accounts or<br />
-            sign-ups required.
-          </p>
-          <ul class="Project1-languages">
-            <li class="lang1">html</li>
-            <li class="lang2">css</li>
-            <li class="lang3">javaScript</li>
-          </ul>
-          <button class="btn submit-btn" type="submit">See Project</button>
-        </div>
-      </div>
-    </section>
+		<div class="flex flex-col gap-3">
+			<h2 class="text-2xl font-bold">2022-12-14(WED) ~ 22(THU)</h2>
+			<h3 class="text-2xl font-medium">
+				Matches starting from 20 December LIVE! in New York , USA
+			</h3>
+		</div>
+	</div>
 
+	<!-- main program section  -->
+	<section class="program" id="program">
+		<div>
+			<h2>Maatch Fixtures</h2>
+			<img class="indicator" src="./public/images/indicator.svg" alt="Line Break" />
+		</div>
 
-    <!-- Multi-Post Stories section -->
+		<div class="cards-container">
+			<!-- program card 1 -->
+			<div class="card-item">
+				<img src="./public/images/icon1.png" alt="Lecture Icon" />
 
+				<div class="activity">
+					<h3>Warm-up Matches</h3>
+				</div>
+				<div>
+					<p>
+						Experience the clash of Cricket Giants  
+						as they get prepared for the Showdown.
+					</p>
+				</div>
+			</div>
 
-    <div class="container row-reverse">
-      <figure class="snap-shoot-one">
-        <img
-          class="project2-image"
-          src="images/Snapshoot-2.png"
-          alt="Project's image"
-        />
-      </figure>
-      <div class="Project-one-header">
-        <h4>Multi-Post<br />Stories</h4>
-        <ul class="project-description">
-          <li class="project1-text">CANOPY</li>
-          <li>
-            <img
-              class="bullet-image"
-              src="images/Counter.png"
-              alt="bullet"
-            />
-          </li>
-          <li class="Project1-text2">Bad End Dev</li>
-          <li>
-            <img
-              class="bullet-image"
-              src="images/Counter.png"
-              alt="bullet"
-            />
-          </li>
-          <li class="Project1-text3">2015</li>
-        </ul>
-        <p class="project-requirement">
-          A daily selection of privately <br />personalized reads; no
-          accounts or<br />
-          sign-ups required.
-        </p>
-        <ul class="Project1-languages">
-          <li class="lang1">html</li>
-          <li class="lang2">css</li>
-          <li class="lang3">javaScript</li>
-        </ul>
-        <button class="btn submit-btn" type="submit">See Project</button>
-      </div>
-    </div>
+			<!-- program card 2  -->
+			<div class="card-item">
+				<img src="./public/images/icon2.png" alt="Exhibition Icon" />
+				<div class="activity">
+					<h3>Group Stage Matches</h3>
+				</div>
+				<div>
+					<p>
+						Experience the thrill of fast 20 overs
+						from your favourite team to the bitter opponent.
+					</p>
+				</div>
+			</div>
 
+			<!-- program card 3  -->
+			<div class="card-item">
+				<img src="./public/images/icon3.png" alt="Forum Icon" />
+				<div class="activity">
+					<h3>Player Stats</h3>
+				</div>
+				<div>
+					<p>
+						Witnessed who scored the most runs, Or who
+						took the most wickets our favoutite season.
+					</p>
+				</div>
+			</div>
 
-    <!-- Tonic 2 section  -->
+			<!-- program card 4  -->
+			<div class="card-item">
+				<img src="./public/images/icon4.png" alt="Workshop Icon" />
+				<div class="activity">
+					<h3>Points table</h3>
+				</div>
+				<div>
+					<p>
+						See where your favoutite team ranks after winning or defeating
+						their rivals!
+					</p>
+				</div>
+			</div>
 
+			<!-- program card 5  -->
+			<div class="card-item">
+				<img src="./public/images/icon5.png" alt="Job Search Icon" />
+				<div class="activity">
+					<h3>Qualifiers</h3>
+				</div>
+				<div>
+					<p>
+						See which country will qualifys for the Finals!
+						A road where 1 loss can cost yoy the World Cup.
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button">Join Today ! Cricket's Biggest Website</button>
+		<a href="./index.html" class="see-program text-center">SEE MORE</a>
+	</section>
 
-    <div class="container">
-      <figure class="snap-shoot-one">
-        <img
-          class="project3-image"
-          src="images/Snapshoot-3.png"
-          alt="project's image"
-        />
-      </figure>
-      <div class="Project-one-header">
-        <h4>Tonic</h4>
-        <ul class="project-description">
-          <li class="project1-text">CANOPY</li>
-          <li>
-            <img
-              class="bullet-image"
-              src="images/Counter.png"
-              alt="bullet"
-            />
-          </li>
-          <li class="Project1-text2">End Dev</li>
-          <li>
-            <img
-              class="bullet-image"
-              src="images/Counter.png"
-              alt="bullet"
-            />
-          </li>
-          <li class="Project1-text3">2015</li>
-        </ul>
-        <p class="project-requirement">
-          A daily selection of privately <br />
-          personalized reads; no accounts or <br />
-          sign-ups required.
-        </p>
-        <ul class="Project1-languages">
-          <li class="lang1">html</li>
-          <li class="lang2">css</li>
-          <li class="lang3">javaScript</li>
-        </ul>
-        <button class="btn submit-btn" type="submit">See Project</button>
-      </div>
-    </div>
+	<!-- speakers section  -->
+	<section id="speakers" class="relative flex flex-col items-center gap-8 py-8 px-4 text-heavy-metal">
+		<h2
+			class="speakers-title relative text-center text-2xl font-medium after:absolute after:left-[calc(50%-48px/2)] after:-bottom-3 after:h-[2px] after:w-12 after:bg-coral-red">
+			Featured PLAYERS 
+		</h2>
+		<div
+			class="speakers-card-container grid w-full max-w-480px grid-cols-1 gap-4 px-6 md:my-20 max-w-full grid-cols-2 gap-11"
+			id="speakers-card-container"></div>
+		<button id="speakers-btn" class="md:hidden w-full border-2 px-4 py-3 text-metal-grey">
+			<span>MORE</span>
+			<i class="fa-solid fa-chevron-down ml-2 rotate-180 text-coral-red"></i>
+		</button>
+	</section>
 
+	<!-- partner section  -->
+	<section id="partner" class="relative flex flex-col items-center bg-heavy-metal py-8 px-4 mobile-hidden">
+		<h2
+			class="partner-title relative text-center text-2xl font-medium text-metal-grey after:absolute after:left-[calc(50%-48px/2)] after:-bottom-3 after:h-[2px] after:w-12 after:bg-coral-red">
+			Partner
+			<img class="indicator" src="./public/images/indicator.svg" alt="Line Break" />
+		</h2>
+		<ul class="partners-items-container mt-5 flex w-75 flex-wrap items-center justify-center gap-4">
+			<li class="partners-img-container max-w-120px">
+				<img src="./public/images/partner-mozilla.png" alt="mozilla" />
+			</li>
+			<li class="partners-img-container max-w-120px">
+				<img src="./public/images/partner-google.png" alt="google" />
+			</li>
+			<li class="partners-img-container max-w-120px">
+				<img src="./public/images/partner-naver.png" alt="naver" />
+			</li>
+			<li class="partners-img-container max-w-120px">
+				<img src="./public/images/partner-daumkakao.png" alt="daumkakao" />
+			</li>
+			<li class="partners-img-container max-w-120px">
+				<img src="./public/images/partner-airbnb.png" alt="airbnb" />
+			</li>
+		</ul>
+	</section>
 
-    <!-- Multi-Post Stories 2 section -->
+	<!-- footer section  -->
+	<footer class="footer-home">
+		<div>
+			<a class="footer-logo" href="index.html">
+				<img src="./public/images/icclogo.jpg" style="width: 222px" alt="logo" />
+			</a>
+		</div>
+		<div style="text-align: center">
+			<p>
+				&copy;2023 International Cricket Council. ALL Rights Reserved
+			</p>
+			<p>
+				Cricket's global fan community. Sign up today for exclusive content, 
+				priority ticket access and personalised news sent straight to your email
+			</p>
+		</div>
+	</footer>
 
-
-    <div class="container row-reverse">
-      <figure class="snap-shoot-one">
-        <img
-          class="project4-photo"
-          src="images/Snapshoot-4.png"
-          alt="project's image"
-        />
-      </figure>
-      <div class="Project-one-header">
-        <h4>
-          Multi-Post <br />
-          Stories
-        </h4>
-        <ul class="project-description">
-          <li class="project1-text">CANOPY</li>
-          <li>
-            <img
-              class="bullet-image"
-              src="images/Counter.png"
-              alt="bullet"
-            />
-          </li>
-          <li class="Project1-text2">Back End Dev</li>
-          <li>
-            <img
-              class="bullet-image"
-              src="images/Counter.png"
-              alt="bullet"
-            />
-          </li>
-          <li class="Project1-text3">2015</li>
-        </ul>
-        <p class="project-requirement">
-          A daily selection of privately <br />
-          personalized reads; no accounts or <br />
-          sign-ups required.     
-        </p>
-        <ul class="Project1-languages">
-          <li class="lang1">html</li>
-          <li class="lang2">css</li>
-          <li class="lang3">javaScript</li>
-        </ul>
-        <button class="btn submit-btn" type="submit">See Project</button>
-      </div>
-    </div>
-
-    <!-- ABOUT MYSELF SECTION -->
-
-    <section id="about-container">
-      <div class="about-content">
-        <div class="leftblock">
-          <h2 class="title">
-            About
-            <br />Myself
-          </h2>
-          <p class="about-description">
-            Hello I’m a software developer! I can help <br />
-            you build a product, feature or website. <br />
-            Look through some of my work and <br />
-            experience! If you like what you see and <br />
-            have a project you need coded, don’t <br />
-            hestiate to contact me.
-          </p>
-          <a href="#" class="connect-one">
-            <h3>LET'S CONNECT</h3>
-          </a>
-
-
-
-          <ul class="icons">
-              <li>
-                <a href="https://github.com/TalhaBruh" target="blank"
-                  ><img src="images/github.svg" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/syed-talha-shah-60726a221/"
-                  target="blank"
-                  ><img src="images/linkedin.svg" alt="linkedin icon"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/syed-talha-shah-60726a221/"
-                  target="blank"
-                  ><img src="images/angel-list.svg" alt="angellist icon"
-                /></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/yrrrtalhaa" target="blank"
-                  ><img src="images/twitter.svg" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/yrrrtalhaa" target="blank"
-                  ><img src="images/Medium.svg" alt="Medium"
-                /></a>
-              </li>
-            </ul>
-
-
-
-          <button class="btn1" type="submit">Get my resume</button>
-        </div>
-        <div class="dropdown-menu">
-          <ul class="programming-languages3">
-            <li class="menu1">
-              <p>Languages</p>
-              <img src="images/arrow.png" alt="arrow-down" />
-            </li>
-          </ul>
-
-          <ul class="programming-lang">
-            <li class="hero-links about-hero-link">
-              <img
-                class="icon"
-                src="images/Ellipse-1.png"
-                alt="JavaScript icon"
-              />
-              <p class="hero-sub-link">JavaScript</p>
-            </li>
-            <li class="hero-links about-hero-link">
-              <img
-                class="icon"
-                src="images/Ellipse-2.png"
-                alt="HTML5 icon"
-              />
-              <p class="hero-sub-link">HTML</p>
-            </li>
-            <li class="hero-links about-hero-link">
-              <img
-                class="icon"
-                src="images/Ellipse-3.png"
-                alt="CSS3 icon"
-              />
-              <p class="hero-sub-link">CSS</p>
-            </li>
-          </ul>
-          <ul class="programming-lang1">
-            <li class="menu1" id="frameworks">
-              <p class="framework1">Frameworks</p>
-              <img
-                src="images/arrow-right.png"
-                alt="arrow bottom icon"
-              />
-            </li>
-          </ul>
-          <ul class="p-lang2">
-            <li class="menu1" id="skills">
-              <p class="framework1">Skills</p>
-              <img
-                src="images/arrow-right.png"
-                alt="arrow bottom icon"
-              />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT ME SECTION -->
-
-    <section id="contact-container" class="contact-me">
-      <div>
-        <h1 class="contact-title">Contact me</h1>
-        <p class="contact-description">
-          If you have an application you are interested in developing, a
-          feature that you need built or a project that needs coding. I’d love
-          to help with it.
-        </p>
-        <form
-          id="input"
-          class="flex-column"
-          action="https://formspree.io/f/xdoqlgnr"
-          method="POST"
-        >
-          <input
-            type="text"
-            name="name"
-            placeholder="Full name"
-            minlength="3"
-            maxlength="30"
-            required
-          >
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Email address"
-            required
-          >
-          <p id="form-message-error"></p>
-          <textarea
-            name="message"
-            placeholder="Write your message here"
-            maxlength="500"
-            cols="20"
-            rows="10"
-            required
-          ></textarea>
-          <button class="btn" type="submit">Get In Touch</button>
-        </form>
-        <hr class="footer-line" />
-      </div>
-    </section>
-  </main>
+	<div class="myprofile" style="text-align: center">
+		<hr class="my-4 w-full" />
+		<span class="text-center text-sm">&copy; 2023 created by:
+			<a href="https://github.com/TalhaBruh" target="_blank" class="hover:underline">Syed Talha Gamil: fa20-bcs-049@cuilahore.edu.pk</a>
+		</span>
+	</div>
+	<script src="./public/js/speakers.js"></script>
 </body>
+
 </html>
